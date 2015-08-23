@@ -1,0 +1,87 @@
+/* line 4, ../scss/pluginoverrides.scss */
+nav .pure-menu-link {
+  color: #E54300;
+}
+/* line 8, ../scss/pluginoverrides.scss */
+nav .pure-menu-link:hover, nav .pure-menu-link:focus {
+  border-bottom: 1px solid #E54300;
+  color: #E54300;
+  background: #FFFCF5;
+}
+
+/* line 4, ../scss/common.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFCF5;
+  color: #E54300;
+}
+
+/* line 10, ../scss/common.scss */
+.splash-container {
+  background: #FFFCF5;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
+}
+
+/* line 21, ../scss/common.scss */
+.splash {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 33, ../scss/common.scss */
+.splash h1 {
+  font-size: 24px;
+}
+/* line 37, ../scss/common.scss */
+.splash ul.social-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 42, ../scss/common.scss */
+.splash ul.social-links li {
+  display: inline-block;
+  padding: 5px;
+}
+/* line 46, ../scss/common.scss */
+.splash ul.social-links li a {
+  color: inherit;
+}
+/* line 50, ../scss/common.scss */
+.splash ul.social-links li i {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 48em) {
+  /* line 59, ../scss/common.scss */
+  .splash h1 {
+    font-size: 250%;
+  }
+  /* line 65, ../scss/common.scss */
+  .splash ul.social-links li i {
+    font-size: 350%;
+  }
+}
+@media screen and (min-width: 80em) {
+  /* line 75, ../scss/common.scss */
+  .splash h1 {
+    font-size: 350%;
+  }
+  /* line 81, ../scss/common.scss */
+  .splash ul.social-links li i {
+    font-size: 450%;
+  }
+}

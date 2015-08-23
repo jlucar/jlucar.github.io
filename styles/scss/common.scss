@@ -1,0 +1,87 @@
+@import 'variables.scss';
+@import 'pluginoverrides.scss';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: $background-color;
+  color: $primary-color;
+}
+
+.splash-container {
+  background: $background-color;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
+}
+
+.splash {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  h1 {
+    font-size: 24px;
+  }
+
+  ul.social-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding: 5px;
+
+      a {
+        color: inherit;
+      }
+
+      i {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .splash {
+    h1 {
+      font-size: 250%;
+    }
+
+    ul.social-links {
+      li {
+        i {
+          font-size: 350%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .splash {
+    h1 {
+      font-size: 350%;
+    }
+
+    ul.social-links {
+      li {
+        i {
+          font-size: 450%;
+        }
+      }
+    }
+  }
+}

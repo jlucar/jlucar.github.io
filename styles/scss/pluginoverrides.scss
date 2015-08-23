@@ -1,0 +1,13 @@
+
+nav {
+
+  .pure-menu-link {
+    color: $primary-color;
+  }
+
+  .pure-menu-link:hover, .pure-menu-link:focus {
+    border-bottom: 1px solid $primary-color;
+    color: $primary-color;
+    background: $background-color;
+  }
+}
