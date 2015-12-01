@@ -1,24 +1,24 @@
 /* line 4, ../scss/pluginoverrides.scss */
 nav .pure-menu-link {
-  color: #E54300;
+  color: #E74C3C;
 }
 /* line 8, ../scss/pluginoverrides.scss */
 nav .pure-menu-link:hover, nav .pure-menu-link:focus {
-  border-bottom: 1px solid #E54300;
-  color: #E54300;
-  background: #FFFCF5;
+  border-bottom: 1px solid #E74C3C;
+  color: #E74C3C;
+  background: #2C3E50;
 }
 
 /* line 4, ../scss/common.scss */
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #FFFCF5;
-  color: #E54300;
+  background: #2C3E50;
+  color: #E74C3C;
 }
 
 /* line 10, ../scss/common.scss */
 .splash-container {
-  background: #FFFCF5;
+  background: #2C3E50;
   z-index: 1;
   overflow: hidden;
   width: 100%;
